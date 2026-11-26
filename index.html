@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Dolce Vita Café</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f5ef;
+  color: #29251f;
+}
+
+header {
+  background: #263b32;
+  color: white;
+  padding: 22px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: Georgia, serif;
+  font-size: 32px;
+  margin: 0;
+}
+
+nav {
+  padding: 15px;
+  text-align: center;
+  background: #e9e2d5;
+}
+
+nav a {
+  color: #263b32;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 90px 20px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(#0006,#0006),
+  url('https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1200')
+  center/cover;
+}
+
+.hero h2 {
+  font-family: Georgia, serif;
+  font-size: 42px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.button {
+  display: inline-block;
+  background: #c69b65;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+section {
+  padding: 45px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  color: #263b32;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+}
+
+.item {
+  background: white;
+  padding: 22px;
+  border-radius: 10px;
+  width: 220px;
+}
+
+.item strong {
+  color: #b17d43;
+}
+
+footer {
+  background: #263b32;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>La Dolce Vita Café</h1>
+  <p>Un caffè, mille momenti.</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#menu">Menu</a>
+  <a href="#chi-siamo">Chi siamo</a>
+  <a href="#contatti">Contatti</a>
+</nav>
+
+<div class="hero" id="home">
+  <h2>Il piacere delle piccole cose</h2>
+  <p>Colazioni, caffè e momenti speciali.</p>
+  <a href="#menu" class="button">Scopri il menu</a>
+</div>
+
+<section id="chi-siamo">
+  <h2>Benvenuti!</h2>
+  <p>Un luogo accogliente dove ogni giornata
+  inizia con il profumo del buon caffè.</p>
+</section>
+
+<section id="menu">
+  <h2>Il nostro menu</h2>
+
+  <div class="menu">
+    <div class="item">
+      <h3>Espresso</h3>
+      <p>Il classico caffè italiano.</p>
+      <strong>€ 1,20</strong>
+    </div>
+
+    <div class="item">
+      <h3>Cappuccino</h3>
+      <p>Latte cremoso e buon caffè.</p>
+      <strong>€ 1,80</strong>
+    </div>
+
+    <div class="item">
+      <h3>Croissant</h3>
+      <p>Appena sfornato ogni mattina.</p>
+      <strong>€ 1,50</strong>
+    </div>
+  </div>
+</section>
+
+<section id="contatti">
+  <h2>Vieni a trovarci</h2>
+  <p>Ti aspettiamo ogni giorno!</p>
+  <a class="button"
+  href="https://www.google.com/maps">
+  Come raggiungerci
+  </a>
+</section>
+
+<footer>
+  © 2026 La Dolce Vita Café
+</footer>
+
+</body>
+</html>
